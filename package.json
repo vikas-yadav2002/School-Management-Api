@@ -5,6 +5,7 @@
   "main": "dist/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "stage" : "tsc && git add .",
     "start": "node dist/app.js",
     "dev": "nodemon src/app.ts",
     "build": "tsc"

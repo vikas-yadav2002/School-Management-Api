@@ -16,7 +16,7 @@ yarn-error.log*
 Thumbs.db
 
 # TypeScript compiled files
-/dist
+
 /out
 /build
 
