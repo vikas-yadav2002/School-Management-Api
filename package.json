@@ -1,14 +1,16 @@
 {
-  "name": "schoolmanagenment",
+  "name": "schoolmanagement",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A Node.js API for managing school data using Express and MySQL.",
+  "main": "dist/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src\\app.ts"
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "Vikas",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
